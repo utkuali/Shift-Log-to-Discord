@@ -1,8 +1,0 @@
-
-- Changed the way functions works when player exits the game to fix the problem,
-- With this fix it should also work better.
-
-
-LAST CHANGE:
-
-- added the code guide for on-duty, off-duty scripts in README.md
