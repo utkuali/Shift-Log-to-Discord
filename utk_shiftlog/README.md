@@ -4,8 +4,6 @@ Logs player shifts to Discord according to their job.
 
 Built for ESX.
 
-**IMPORTANT INFO:** When a player starts the shift and then ends the shift the next day, script miscalculates the duration. I will fix this but I'm too busy with main scripts. Don't worry when I fix this I will share the update to everyone.
-
 ## Installation
 
 - Nothing much actually, just pust it in the resources file and start in server.cfg, starting line doesn't matter.
@@ -18,7 +16,7 @@ Built for ESX.
 
 ## Using with off-duty, on-duty
 
-If you are using an off-duty script, best way to implement this script is to create an serverevent and triggering it in the off-duty script when a player goes off-duty or on-duty.
+If you are using an off-duty script, best way to implement this script is to create a serverevent and trigger it in the off-duty script when a player goes off-duty or on-duty.
 
 **IMPORTANT** You need to add the code below to utk_shiftlog/server.lua and trigger the server event from your off-duty script!
 
